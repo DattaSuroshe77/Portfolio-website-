@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/865f2035e6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <h1><span>D</span>atta <span>D</span>S</h1>
+            <ul id="side">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i id="iconss" class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Datta </span><br> Suroshe From Umarkhed</h1>
+        </div>
+       </div>
+    </div>
+
+
+
+
+    <!-- -----------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1>About me</h1>
+                    <p>I am a passionate frontend developer with a strong commitment to creating exceptional user experiences through web development. With a keen eye for design and a knack for turning ideas into visually appealing and interactive websites, I thrive on the ever-evolving challenges of the digital world.
+                        I'm always learning new frameworks and libraries to stay on top of the latest trends.</p>
+                        <div class="tab-title">
+                            <p class="tab-links Active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('certifications')">certifications</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-contain tab-active" id="skills">
+                            <ul>
+                                <li><span>React js</span><br> is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.</li>
+                                <li><span>JavaScript</span><br>JavaScript is a programming language used for creating dynamic content on websites</li>
+                                <li><span>Responsive Websites</span><br>Being fully adaptive doesn't mean solely being mobile and tablet friendly.</li>
+                                <li><span>Bootstrap</span><br>Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.</li>
+                                <li><span>HTML & CSS</span><br>CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed</li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-contain" id="certifications">
+                            <ul>
+                                <li><span>Complete JAVASCRIPT </span> <br>with HTML5,CSS3 from zero to Expert-2023
+                                </li>
+                                <li><span>CSS Crash Course For Beginners</span>
+                                    </li>
+                                
+                            </ul>
+
+                        </div>
+                        <div class="tab-contain" id="education">
+                            <ul>
+                                <li><span>Gopikabai Sitaram Gawande College, Umarkhed </span><br>Bachelor of Science - BS, Biology,<br>
+                                    Jun 2020 - Jun 2024
+                                    <br><b>Grade: 72.44%</b>
+                                </li>
+                                <li><span>Gopikabai Sitaram Gawande College, Umarkhed </span><br>HSC General,<br>
+                                     2019 - Feb 2020
+                                    <br><b>Grade: 51.66%</b>
+                                </li>
+                                
+                            </ul>
+
+                        </div>
+                </div>
+                <div class="about-col-2">
+                    <img src="img/WhatsApp Image 2023-07-13 at 5.59.18 PM (1).jpeg" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+   <div id="Services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="Services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita minus veniam optio voluptatibus culpa fuga!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita minus veniam optio voluptatibus culpa fuga!</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita minus veniam optio voluptatibus culpa fuga!</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+        </div>
+    </div>
+   </div>
+
+
+   <div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work-1.png" alt="">
+                <div class="layer">
+                    <h3>WhatsApp-Clone</h3>
+                    <p>I Creating a WhatsApp clone using HTML, CSS, and JavaScript is a substantial project
+                        this is a my first project.
+                         in this project i use only front end technology ...
+                        </p>
+                    <a href="https://dattasuroshe77.github.io/WhatsApp-clone/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Spotify-</h3>
+                    <p>using vanila JavaScript i create this its only ui i store music in arry not using apis of music </p>
+                    <a href="https://dattasuroshe77.github.io/spotify-clone/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-3.png" alt="">
+                <div class="layer">
+                    <h3>E-commerce websites</h3>
+                    <p>"Embark on an E-Commerce Revolution: Unveiling [Shopping Website]
+
+                        We're thrilled to introduce [Shopping Website], a cutting-edge e-commerce platform designed to redefine the online shopping experience.</p>
+                    <a href="https://dattasuroshe77.github.io/Shopping-website/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope" style="color: #FFD43B;"></i> dsuroshe5646@gmail.com </p>
+                <p> <i class="fa-solid fa-phone" style="color: #74C0FC;"></i> 7743895646</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/people/Datta-Suroshe/pfbid02128FJDuobK6ocvyMA2kr4uagFKxvcHo8ZxhTULTfwAp88Ko67VtXXu6qFbpWc7Jgl/"><i class="fa-brands fa-facebook" target="_blank" ></i></a>
+                    <a href="https://www.linkedin.com/in/dattasuroshe/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                    <a href="https://instagram.com/__patil__77?igshid=MzMyNGUyNmU2YQ=="  target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+                    <a href="#"  target="_blank"><i class="fa-brands fa-upwork"></i></a>
+
+                </div>
+                <a href="img/Resume - Datta suroshe.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email">
+                    <textarea rows="6" name="Message" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <p>Copyright @ Datta. Made with <i class="fa-solid fa-heart" style="color: #ff004f"></i> By Datta Suroshe</p>
+       </div>
+   </div>
+   
+   
+<script src="script.js">
+    
+</script>
+
+  
+</body>
+</html>
